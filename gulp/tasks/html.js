@@ -22,7 +22,7 @@ function html() {
             to: ["css", "js"],
           },
           output: {
-            file: "gulp/version.json",
+            file: projectPaths.buildFolder + "/version.json",
           },
         })
       )

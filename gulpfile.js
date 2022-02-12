@@ -1,7 +1,6 @@
 const gulp = require("gulp");
 
 const projectPaths = require("./gulp/configs/paths");
-const {isDevelopment} = require('./gulp/configs/config')
 
 const { copy } = require("./gulp/tasks/copy");
 const { html } = require("./gulp/tasks/html");
@@ -10,6 +9,7 @@ const { scss } = require("./gulp/tasks/scss");
 const { reset } = require("./gulp/tasks/reset");
 const { js } = require("./gulp/tasks/js");
 const { images } = require("./gulp/tasks/images");
+const { zip } = require("./gulp/tasks/zip");
 
 function watcher() {
     gulp.watch(projectPaths.watch.files, copy);
@@ -29,3 +29,4 @@ const build = gulp.series(reset, mainTasks);
 gulp.task("default", dev);
 
 module.exports.build = build
+module.exports.zip = zip
