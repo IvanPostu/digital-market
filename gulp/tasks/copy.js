@@ -8,11 +8,5 @@ function copy() {
     .pipe(gulp.dest(projectPaths.build.files));
 }
 
-function copyWatcher() {
-  return gulp
-    .watch(projectPaths.watch.files, copy);
-}
-
 module.exports.copy = copy;
 
-module.exports.copyWatcher = copyWatcher;

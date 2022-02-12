@@ -1,0 +1,20 @@
+.aa {
+  span {
+    color: red;
+  }
+
+  background: url("aaa");
+}
+
+
+@media screen and (max-width: 100px) {
+    .aa{
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 100px) {
+    body {
+        background: red;
+    }
+}
