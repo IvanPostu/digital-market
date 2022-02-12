@@ -33,5 +33,4 @@ module.exports = {
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,
-
 }

@@ -2,19 +2,25 @@
   "name": "digital-market",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development ./node_modules/.bin/gulp",
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
-    "zip": "./node_modules/.bin/gulp zip"
+    "zip": "./node_modules/.bin/gulp zip",
+    "lint": "eslint ."
   },
   "author": "IvanPostu",
   "license": "ISC",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
     "browser-sync": "^2.27.7",
     "cross-env": "^7.0.3",
     "del": "^6.0.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
@@ -28,9 +34,9 @@
     "gulp-sass": "^5.1.0",
     "gulp-version-number": "^0.2.4",
     "gulp-zip": "^5.1.0",
+    "prettier": "^2.5.1",
     "sass": "^1.49.7",
     "webpack": "^5.68.0",
     "webpack-stream": "^7.0.0"
-  },
-  "dependencies": {}
+  }
 }

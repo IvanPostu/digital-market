@@ -1,15 +1,15 @@
-const { init } = require("browser-sync");
+const { init } = require('browser-sync')
 
-const projectPaths = require("../configs/paths");
+const projectPaths = require('../configs/paths')
 
-function server(done) {
-  init({
-    server: {
-      baseDir: projectPaths.build.html,
-    },
-    notify: true,
-    port: 3000,
-  });
+function server() {
+    init({
+        server: {
+            baseDir: projectPaths.build.html,
+        },
+        notify: true,
+        port: 3000,
+    })
 }
 
-module.exports.server = server;
+module.exports.server = server
