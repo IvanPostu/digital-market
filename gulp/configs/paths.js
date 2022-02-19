@@ -4,6 +4,7 @@ const rootFolder = path.basename(path.resolve())
 
 const buildFolder = './build'
 const srcFolder = './src'
+const nodeModules = './node_modules/'
 
 module.exports = {
     build: {
@@ -13,6 +14,8 @@ module.exports = {
         js: buildFolder + '/js/',
         images: buildFolder + '/img/',
         fonts: buildFolder + '/fonts/',
+        staticLibsCss: buildFolder + '/staticLibs/css/',
+        staticLibsJs: buildFolder + '/staticLibs/js/',
     },
     src: {
         files: srcFolder + '/files/**/*.*',
@@ -21,6 +24,7 @@ module.exports = {
         js: srcFolder + '/js/app.js',
         images: srcFolder + '/img/**/*.{jpg,jpeg,png,gif,webp}',
         svg: srcFolder + '/img/**/*.svg',
+        fonts: srcFolder + '/fonts/*.ttf',
     },
     watch: {
         files: srcFolder + '/files/**/*.*',
@@ -28,9 +32,11 @@ module.exports = {
         scss: srcFolder + '/scss/**/*.scss',
         js: srcFolder + '/js/**/*.js',
         images: srcFolder + '/img/**/*.{jpg,jpeg,png,gif,webp,svg}',
+        fonts: srcFolder + '/fonts/*.ttf',
     },
     clean: buildFolder,
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,
+    nodeModules: nodeModules,
 }

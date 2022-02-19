@@ -3,7 +3,7 @@ const gulp = require('gulp')
 const sass = require('sass')
 const rename = require('gulp-rename')
 const gulpSass = require('gulp-sass')
-
+const minifyCss = require('gulp-minify-css')
 const cleanCss = require('gulp-clean-css')
 const autoprefixer = require('gulp-autoprefixer')
 const groupCssMediaQueries = require('gulp-group-css-media-queries')
@@ -35,6 +35,7 @@ function scss() {
         )
         .pipe(gulp.dest(projectPaths.build.css))
         .pipe(cleanCss())
+        .pipe(minifyCss({ keepSpecialComments: 0 }))
         .pipe(
             rename({
                 extname: '.min.css',

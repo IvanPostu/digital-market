@@ -21,6 +21,9 @@ function js() {
                 output: {
                     filename: 'app.min.js',
                 },
+                externals: {
+                    jquery: 'jQuery',
+                },
             })
         )
         .pipe(gulp.dest(projectPaths.build.js))

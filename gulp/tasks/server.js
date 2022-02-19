@@ -9,6 +9,7 @@ function server() {
         },
         notify: true,
         port: 3000,
+        open: false,
     })
 }
 
