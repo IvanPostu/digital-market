@@ -1,13 +1,34 @@
-$accent: #2B4074;
+$accent: #2b4074;
 $textColor: #4a4a4a;
-$bgColor: #F9F6E5;
+$bgColor: #f9f6e5;
+$defaultColor: #9b9b9b;
 
-%dosis-300{
+%dosis-300 {
     font-family: 'Dosis-Light';
     font-weight: 300;
 }
 
-%roboto-500{
+%dosis-400 {
+    font-family: 'Dosis-Regular';
+    font-weight: 400;
+}
+
+%dosis-500 {
+    font-family: 'Dosis-Medium';
+    font-weight: 500;
+}
+
+%robotocondensed-400 {
+    font-family: 'RobotoCondensed-Regular';
+    font-weight: 400;
+}
+
+%robotocondensed-700 {
+    font-family: 'RobotoCondensed-Bold';
+    font-weight: 700;
+}
+
+%roboto-500 {
     font-family: 'Roboto-Medium';
     font-weight: 500;
 }
