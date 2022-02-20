@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="150mm"
+   viewBox="0 0 210 150"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="/home/ivan/Desktop/digital-market/src/img/logo1.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#2b4074"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     height="150mm"
+     inkscape:zoom="0.49798681"
+     inkscape:cx="451.8192"
+     inkscape:cy="284.14407"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-7.0005811 : 41.199709 : 1"
+       inkscape:vp_y="0 : 365.64931 : 0"
+       inkscape:vp_z="202.84196 : 41.199709 : 1"
+       inkscape:persp3d-origin="97.920693 : 32.058476 : 1"
+       id="perspective35587" />
+    <rect
+       x="47.696193"
+       y="80.670145"
+       width="43.458611"
+       height="145.79497"
+       id="rect27091" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:98.455;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-192.35161"
+       y="-1186.0081"
+       id="text2095"><tspan
+         x="-192.35161"
+         y="-1186.0081"
+         id="tspan1143">Digital </tspan><tspan
+         x="-192.35161"
+         y="-1154.258"
+         id="tspan1145">Market</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text27089"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect27091)" />
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g35589"
+       inkscape:perspectiveID="#perspective35587"
+       inkscape:corner0="5.1241562 : 0.011194947 : 0 : 1"
+       inkscape:corner7="0.38440502 : -0.072791274 : 50.617653 : 1"
+       style="fill:#aaeeff">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35601"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         d="m 182.04271,108.88925 17.23044,0.008 v 0.59054 l -17.23044,-0.0574 z"
+         points="199.27315,108.89736 199.27315,109.4879 182.04271,109.43047 182.04271,108.88925 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35591"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         d="m 10.131783,109.62454 v 5.01448 l 171.910927,-5.20855 v -0.54122 z"
+         points="10.131783,114.63902 182.04271,109.43047 182.04271,108.88925 10.131783,109.62454 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35599"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         d="m 10.131783,114.63902 58.655628,19.98992 130.485739,-25.14104 -17.23044,-0.0574 z"
+         points="68.787411,134.62894 199.27315,109.4879 182.04271,109.43047 10.131783,114.63902 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35593"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         d="m 10.131783,109.62454 58.655628,2.82194 130.485739,-3.54912 -17.23044,-0.008 z"
+         points="68.787411,112.44648 199.27315,108.89736 182.04271,108.88925 10.131783,109.62454 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35597"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         d="m 68.787411,112.44648 v 22.18246 L 199.27315,109.4879 v -0.59054 z"
+         points="68.787411,134.62894 199.27315,109.4879 199.27315,108.89736 68.787411,112.44648 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path35595"
+         style="fill:#aaeeff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         d="m 10.131783,109.62454 58.655628,2.82194 v 22.18246 L 10.131783,114.63902 Z"
+         points="68.787411,112.44648 68.787411,134.62894 10.131783,114.63902 10.131783,109.62454 " />
+    </g>
+    <path
+       style="fill:#b7c4c8;stroke-width:0.321155"
+       d="m 68.787411,134.62894 c 0,-6.04619 0.167797,-10.99307 0.372881,-10.99307 0.968442,0 108.822848,-2.95387 117.122408,-3.2077 11.9094,-0.36423 12.57705,-0.36411 12.57705,0.002 0,0.16027 -0.18688,0.29141 -0.4153,0.29141 -0.43056,0 -22.3539,4.19925 -81.87536,15.68261 -19.12595,3.68993 -37.701072,7.27341 -41.27806,7.96328 l -6.503619,1.25432 z"
+       id="path7341" />
+    <rect
+       style="opacity:1;fill:#b7c4c8;fill-opacity:1;stroke-width:0.264583"
+       id="rect1099"
+       width="124.07571"
+       height="20"
+       x="10.131783"
+       y="89.624535" />
+    <g
+       id="g1207"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/ivan/Desktop/digital-market/src/img/g1207.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:48.5475px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.505703"
+         x="-1.2563723"
+         y="56.303734"
+         id="text22165"
+         transform="scale(0.64730017,1.5448783)"><tspan
+           sodipodi:role="line"
+           id="tspan22163"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:48.5475px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.505703"
+           x="-1.2563723"
+           y="56.303734"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.5475px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.505703"
+   id="tspan50303">D</tspan>igital <tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold Italic';fill:#ffffff;fill-opacity:1;stroke-width:0.505703"
+   id="tspan56159">M</tspan>arket</tspan></text>
+    </g>
+  </g>
+</svg>
