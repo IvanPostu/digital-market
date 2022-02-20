@@ -5,7 +5,7 @@ console.log(1)
 console.log(q())
 
 const arrowIcon = function (deg, buttonClasses) {
-    return `
+  return `
         <button 
             type="button" 
             class="slick-arrow ${buttonClasses}">
@@ -17,25 +17,46 @@ const arrowIcon = function (deg, buttonClasses) {
 }
 
 $(function () {
-    console.log('ready')
+  console.log('ready')
 
-    $('.top-slider').slick({
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        nextArrow: arrowIcon(90, 'slick-next'),
-        prevArrow: arrowIcon(270, 'slick-prev'),
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {},
-            },
-            {
-                breakpoint: 640,
-                settings: {
-                    arrows: false,
-                },
-            },
-        ],
-    })
+  $('.top-slider').slick({
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: arrowIcon(90, 'slick-next'),
+    prevArrow: arrowIcon(270, 'slick-prev'),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
+  })
+
+  $('.quote-slider').slick({
+    dots: true,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: arrowIcon(90, 'slick-next'),
+    prevArrow: arrowIcon(270, 'slick-prev'),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {},
+      },
+      {
+        breakpoint: 640,
+        settings: {},
+      },
+    ],
+  })
 })
